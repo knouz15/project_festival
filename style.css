@@ -1,0 +1,92 @@
+@font-face 
+{
+    font-family: 'John Mayer';
+   
+    src:  url('./polices/Brand.woff') format('woff'),
+            url('./polices/Brand.otf') format('otf'),
+            url('./polices/Brand.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-variant-ligatures: discretionary-ligatures;
+    letter-spacing: normal;
+}
+
+@font-face 
+{
+    font-family: 'action_manbold';
+    src: url('./Polices/Action_Man_Bold-webfont.eot');
+    src: url('./Polices/Action_Man_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+            url('./Polices/Action_Man_Bold-webfont.woff2') format('woff2'),
+            url('./Polices/Action_Man_Bold-webfont.woff') format('woff'),
+            url('./Polices/Action_Man_Bold-webfont.ttf') format('truetype'),
+            url('./Polices/Action_Man_Bold-webfont.svg#action_manbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face 
+{
+    font-family: 'libreBaskerville';
+   
+    src:  url('./polices/LibreBaskerville-Bold.ttf') format('ttf'),
+            url('./polices/LibreBaskerville-Italic.ttf') format('ttf'),
+            url('./polices/LibreBaskerville-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-variant-ligatures: discretionary-ligatures;
+    letter-spacing: normal;
+}
+
+h1
+{
+    font-family: 'John Mayer', Arial, Verdana, serif;
+    text-shadow: 2px 2px 4px black;
+    font-weight: bold;
+    color:   rgb(255, 209, 73);
+}
+
+h2
+{
+    font-family: 'John Mayer', Arial, Verdana, serif;
+    text-align: center;
+    border: 5px ridge;
+    color: rgb(255, 209, 73);
+    text-shadow: 2px 2px 4px black;
+}
+h5
+{
+    font-family: 'libreBaskerville', Arial, Verdana, serif;
+}
+
+h3
+{
+    font-family: 'John Mayer', Arial, Verdana, serif;
+    text-shadow: 2px 2px 4px black;
+    color:  rgb(255, 209, 73);
+    font-weight: bold;
+}
+h4
+{
+    font-family: 'John Mayer', Arial, Verdana, serif;
+    font-weight: bold;
+}
+
+body
+{
+    /*background-color:  rgb(114, 5, 5);*/
+    /*color: rgb(114, 5, 5); */
+    background-image: url("./images/noir.webp");
+}
+
+ /* Couleur de fond de la barre de navigation */
+.navbar
+{
+    background-color: rgb(183, 28, 28);
+}
+
+footer
+{
+    background-color: rgb(183, 28, 28); 
+}
+
+
+

@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="icon" type="image/png" href="images/logos/logo.png" />
+    <link rel="stylesheet" href="style.css">
+    <title>FESTIVAL LES FILMS DE PLEIN AIR </title>
+</head>
+<!--<body background="images/background.jpg">-->
+<body>
+  
+  <!--<nav class="navbar navbar-expand-lg  navbar-light fixed-top"  style="background-color: rgb(183, 28, 28)">-->
+    <nav class="navbar navbar-expand-lg  navbar-light fixed-top"  >
+      <div class="container p-1">
+        <a  href="#association" class="navbar-brand"> 
+        <img style="border-radius: 10px;" src="images/logos/logo.png" class=" w-10" id="logo" alt="logo">
+        </a>
+        <h3>Les films de plein air</h3>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#x" aria-controls="x" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="x" class="collapse navbar-collapse" >
+          <ul class="navbar-nav ms-auto mb-lg-0 ">
+            <li class="hidden"><a href="#"></a></li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">ACCUEIL</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#présentation">FESTIVAL</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#films">FILMS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#réservation">RESERVATION</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#lieu">S'Y RENDRE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#actualites">ACTUALITES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#association">ASSOCIATION</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link active" href="#contact">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+  </nav> 
+  <!--Fin navbar--> 
+  <div class="container mb-5 mt-5" > <!--Début container-->
+    <div class="row text-center "><!--Début slider-->
+      <div id="carouselExampleCaptions" class="carousel slide d-none d-lg-block" data-bs-ride="carousel">
+        <div class="carousel-indicators" >
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img style="border-radius: 10px;" src="images/sliders/pleinair.jpg" class=" w-100 " alt="plein air">
+            <div class="carousel-caption">
+              <h1>FESTIVAL DE FILMS D'AUTEUR</h1>
+              <h1>EN PLEIN AIR</h1>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img style="border-radius: 10px;" src="images/sliders/pelicule.jpg" class=" w-100 " alt="pelicule">
+            <div class="carousel-caption">
+              <h1>DU 5 AU 8  AOUT</h1>
+              <h3>DE 18H A MINUIT</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img style="border-radius: 10px;" src="images/sliders/monceau.jpg" class=" w-100 " alt="parc monceau">
+            <div class="carousel-caption">
+              <h1>AU PARC MONCEAU A PARIS</h1>
+              <h3>DANS UN CADRE VERDOYANT</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img style="border-radius: 10px;" src="images/sliders/TourEiffel.jpg" class=" w-100 " alt="tour eiffel">
+            <div class="carousel-caption">
+            <h1>ENTREE GRATUITE</h1>
+            <h3>RESERVEZ VOS PLACES EN LIGNE !!</h3>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!--Fin slider-->
+    
+    <div id="présentation" class="row mb-5 mt-5"> <!--Début Présentation festival-->
+      <h2>  Festival les Films de Plein Air </h2>
+        <div class="card mb-3 p-5" style="background-color: rgb(255, 209, 73)">
+          <div class="row g-0 ">
+            <div class="col-md-8">    
+              <div class=" justify-content-center">
+                <h5>Pour cette première édition du festival, nous vous proposons de découvrir des films d'auteur grand public! <br>
+                  Vous pourrez assister, du 5 au 8 août 2021, en plein cœur du parc Monceau à Paris, à la projection de films qui vous plongeront dans l'univers de chaque réalisateur.<br>
+                  Vous pourrez venir seul, entre amis ou en famille, assister à des séances à la tombée de la nuit, en plein air, confortablement installés.<br>
+                  Toutes les projections de films commencent à 18 h, et durent jusqu'à minuit, entrecoupées de pauses repas aux stands mis à votre disposition.<br>
+                  Merci de vous <a href="#réservation">pré-inscrire!</a>
+                </h5>
+              </div> 
+            </div>
+            <div class="col-md-4 text-center">
+                  <img style="border-radius: 10px;" src="images/logos/logo1.png" alt="logo">
+            </div> 
+          </div>
+        </div>
+    </div> 
+    <!--Fin Présentation du festival-->
+     
+    <div id="films" class="row  mb-5 " > <!--Débuts cards liste films-->
+      <h2>Notre sélection</h2>
+      <div class="card mb-3" style="background-color: rgb(255, 209, 73)">
+        <div class="card-body">
+          <div class="row m-5" >
+          <div class=" justify-content-center">
+            <h5>12 films seront projetés du 5 au 8 août 2021, de 18h à minuit !<br>
+            A raison de 3 films par jour,<br> le premier film à 18h, le deuxième film à 20h et le troisième à 22h</h5>
+          </div>
+          <div class="d-flex col-lg-4 p-1 col-md-6 col-12">
+            <div class="shadow-lg card bg-light">
+              <img src="images/films/wilder1.jpg" class="card-img-top" alt="film wilder">
+              <div class="card-body">
+                <h5 class="card-title">Séance du 5 août à 18H</h5> 
+                <a href="https://www.allocine.fr/video/player_gen_cmedia=19537038&cfilm=1816.html" class="btn btn-light btn-outline-dark" target="_blank">Extrait ...</a>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex col-lg-4 p-1 col-md-6 col-12">
+            <div class="shadow-lg card bg-light">
+              <img src="images/films/wilder2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Séance du 5 août à 20H</h5> 
+                <a href="https://www.allocine.fr/video/player_gen_cmedia=19536792&cfilm=4909.html" class="btn btn-light btn-outline-dark" target="_blank">Extrait ...</a>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex col-lg-4 p-1 col-md-6 col-12">
+            <div class="shadow-lg card bg-light">
+              <img src="images/films/wilder3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Séance du 5 août à 22H</h5> 
+                  <a href="https://www.allocine.fr/video/player_gen_cmedia=19486341&cfilm=65267.html" class="btn btn-light btn-outline-dark" target="_blank">Extrait ...</a>
+                </div>
+            </div>
+          </div>
+          <div class="col-lg-4 p-1 col-md-6 col-12 d-flex">
+            <div class="shadow-lg card bg-light">
+              <img src="images/films/Ford1.jpg" class="card-img-top" alt="film ford">
+              <div class="card-body">
+                <h5 class="card-title">Séance du 6 août à 18H</h5> 
+                <a href="https://www.allocine.fr/video/player_gen_cmedia=19371563&cfilm=3877.html" class="btn btn-light btn-outline-dark" target="_blank">Extrait ...</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 p-1 col-md-6 col-12 d-flex">
+            <div class="shadow-lg card bg-light">
+              <img src="images/films/Ford2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Séance du 6 août à 20H</h5>
+                <a href="https://www.allocine.fr/video/player_gen_cmedia=19456770&cfilm=5140.html" class="btn btn-light btn-outline-dark" target="_blank">Extrait ...</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 p-1 col-md-6 col-12 d-flex">
+                    <div class="shadow-lg card bg-light">
+                        <img src="images/films/Ford3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Séance du 6 août à 22H</h5> 
+                          
+                          <a href="https://www.allocine.fr/film/fichefilm-5161/telecharger-vod/" class="btn btn-light btn-outline-dark" target="_blank">Extrait ...</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 p-1 col-md-6 col-12 d-flex">
+                    <div class="shadow-lg card bg-light">
+                        <img src="images/films/singer1.jpg" class="card-img-top" alt="film singer">
+                        <div class="card-body">
+                          <h5 class="card-title">Séance du 7 août à 18H</h5> 
+                          
+                          <a href="https://www.allocine.fr/video/player_gen_cmedia=15561031&cfilm=15561.html" class="btn btn-light btn-outline-dark" target="_blank">Extrait ...</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 p-1 col-md-6 col-12 d-flex">
+                    <div class="shadow-lg card bg-light">
+                        <img src="images/films/Singer2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Séance du 7 août à 20H</h5> 
+                          
+                          <a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=12837.html" class="btn btn-light btn-outline-dark" target="_blank">Extrait ...</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 p-1 col-md-6 col-12 d-flex">
+                    <div class="shadow-lg card bg-light">
+                        <img src="images/films/Singer3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Séance du 7 août à 22H</h5> 
+                          
+                          <a href="https://www.allocine.fr/video/player_gen_cmedia=18350995&cfilm=29240.html" class="btn btn-light btn-outline-dark" target="_blank">Extrait ...</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 p-1 col-md-6 col-12 d-flex">
+                    <div class="shadow-lg card bg-light">
+                        <img src="images/films/hitchcock1.jpg" class="card-img-top" alt="film hitchcock">
+                        <div class="card-body">
+                          <h5 class="card-title">Séance du 8 août à 18H</h5> 
+                          
+                          <a href="https://www.allocine.fr/video/player_gen_cmedia=19456219&cfilm=981.html" class="btn btn-light btn-outline-dark" target="_blank">Extrait ...</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 p-1 col-md-6 col-12 d-flex">
+                    <div class="shadow-lg card bg-light">
+                        <img src="images/films/hitchcock2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title-bottum">Séance du 8 août à 20H</h5> 
+                          
+                          <a href="https://www.allocine.fr/video/player_gen_cmedia=19444850&cfilm=36507.html" class="btn btn-light btn-outline-dark" target="_blank">Extrait ...</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 p-1 col-md-6 col-12 d-flex">
+                    <div class="shadow-lg card bg-light">
+                        <img src="images/films/hitchcock3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title-bottum">Séance du 8 août à 22H</h5> 
+                          
+                          <a href="https://www.allocine.fr/video/player_gen_cmedia=19456594&cfilm=980.html" class="btn btn-light btn-outline-dark btn-outline-dark" target="_blank">Extrait ...</a>
+                        </div>
+                      </div>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <!--Fin de cards:liste films-->
+    
+    <div id="réservation" class="row mb-5" ><!--Début Réservation--> 
+      <h2>Réservez vos places gratuitement!</h2>
+      <div class="card mb-3 p-5" style="background-color: rgb(255, 209, 73)">
+        <div class="card-body ">
+          <div class="class justify-content-center">
+            <h5>Afin de vous assurer les meilleures conditions de confort et de sécurité, les réservations aux projections sont indispensables.
+            L'accès au Parc et aux projections est entièrement libre et gratuit. <br><strong>Veuillez vous inscrire via ce formulaire:</strong>
+            </h5>
+          </div>
+        </div>
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="exampleInputNom1" class="form-label"></label>
+            <input type="text" class="form-control" placeholder="Entrez votre nom" id="exampleInputNom1">
+          </div>
+          <div class="col-md-6">
+          <label for="exampleInputEmail1" class="form-label"></label>
+            <input type="email" class="form-control" placeholder="Entrez votre mail" id="exampleInputEmail1">
+            <div id="emailHelp2" class="form-text">Votre mail ne sera pas partagé avec des tiers.</div>
+          </div>
+          <div class="col-md-12">
+            <label class="visually-hidden" for="specificSizeSelect">NbPersonnes</label>
+            <select class="form-select" id="specificSizeSelect" >
+                          <option selected>Nombre de personnes</option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          <option value="6">6</option>
+                          <option value="7">7</option>
+                          <option value="8">8</option>
+                          <option value="9">9</option>
+                          <option value="10">10</option>
+                          <option disabled value="">>10 Veuillez nous contacter</option>
+            </select>
+          </div>
+          <div class="col-md-6 mt-5">
+            <h4> Le 5 août   </h4>
+            <div>
+              <input type="checkbox" name="sceance1">
+              <label for="seance1"> 18H -  UN, DEUX, TROIS </label>
+            </div>
+            <div>
+              <input type="checkbox" name="sceance2">
+              <label for="seance2"> 20H -  FEDORA</label>
+            </div>
+            <div>
+              <input type="checkbox" name="sceance3">
+              <label for="seance3"> 22H -  LE POISON</label>
+            </div>
+          </div>
+          <div class="col-md-6 mt-5">
+            <h4> Le 6 août  </h4>
+            <div>
+              <input type="checkbox" name="sceance4">
+              <label for="seance4"> 18H -  TEUFEISHAUPTMANN </label>
+            </div>
+            <div>
+              <input type="checkbox" name="sceance5">
+              <label for="seance5"> 20H -  L'HOMME QUI TUA LIBERTY VALANCE</label>
+            </div>
+            <div>
+              <input type="checkbox" name="sceance6">
+              <label for="seance6"> 22H -  FRONTIERE CHINOISE</label>
+            </div>
+          </div>
+          <div class="col-md-6 mt-5">
+            <h4>   Le 7 août  </h4>
+            <div>
+              <input type="checkbox" name="sceance7">
+              <label for="seance7"> 18H -  UN ELEVE DOUé</label>
+            </div>
+            <div>
+              <input type="checkbox" name="sceance8">
+              <label for="seance8"> 20H -  USUAL SUSPECTS</label>
+            </div>
+            <div>
+              <input type="checkbox" name="sceance9">
+              <label for="seance9"> 22H -  X-MEN</label>
+            </div>
+          </div>
+          <div class="col-md-6 mt-5">
+            <h4>   Le 8 août  </h4>
+            <div>
+              <input type="checkbox" name="sceance10">
+              <label for="seance10"> 18H -  LA CORDE</label>
+            </div>
+            <div>
+              <input type="checkbox" name="sceance11">
+              <label for="seance11"> 20H -  L'HOMME QUI EN SAVAIT TROP</label>
+            </div>
+            <div>
+              <input type="checkbox" name="sceance12">
+              <label for="seance12"> 22H -  VERTIGO</label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-light btn-block btn-outline-dark mt-5 mb-3"> <strong>Je réserve !</strong></button>       
+        </form>   
+      </div>
+    </div>
+    <!--Fin Réservation-->
+
+    <div id="lieu" class="row mb-5 mt-1"><!--Début Lieu du festival-->
+      <h2>Se rendre au festival</h2>
+      <div class="card mb-3 " style="background-color: rgb(255, 209, 73)">
+        <div class="row g-0">
+          <div class="col-md-4 text-center">
+            <iframe class="float-right col-md-4 col-lg-12 " 
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5247.705657114073!2d2.3076659501607417!3d48.88008207211634!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fbe98f714c3%3A0xe62425fddeddc402!2sParc%20Monceau!5e0!3m2!1sfr!2sfr!4v1574784992951!5m2!1sfr!2sfr">
+            </iframe>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              
+            <div class=" justify-content-center">
+              <h5 class="card-text">C'est dans un cadre verdoyant et aéré qu'a lieu le festival au <strong>PARC MONCEAU, 
+                35 Boulevard de Courcelles, 75008 Paris, France</strong></h5>
+            </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>       
+    <!--Fin lieu du festival-->
+
+    <div id="actualités" class="row mb-5 mt-5"> <!--Début Actualités--> 
+      <h2> Actualités </h2>
+      <div class="card mb-3 p-5" style="background-color: rgb(255, 209, 73)">  
+        <div class=" m-5">
+          <h4>Dernières news, communiqués, articles parus dans les média...<br>
+            Pour Rester informé de l'actualité du Festival abonnez-vous à notre <a href="#newsletter">Newsletter</a>
+          </h4>
+        </div>
+        <div class="row g-0 ">
+          <div class="col-lg-4 col-md-6 ">
+            <img style="border-radius: 10px;" src="images/actualités/actualité1.jpg" alt="News films">
+          </div> 
+          <div class="col-lg-8 col-md-6 mt-3">    
+            <div class=" justify-content-center ">
+              <h4>Nouveauté, Cinéma</h4>
+              Publié le 03/04/21 à 15h39
+              <h6>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo alias veniam obcaecati
+              eligendi tenetur at dignissimos repellendus doloremque, molestiae facere odio sunt tempora 
+              suscipit ratione sed consequuntur quaerat! Quo, quidem!    </h6>
+              <a class="btn btn-light btn-outline-dark" href="https://actu-film.com/films-2021.html" target="_blank">Lire plus...</a> 
+            </div> 
+          </div>
+          <div class="col-lg-4 col-md-6 mt-3">
+            <img style="border-radius: 10px;" src="images/actualités/actualité2.jpg" alt="news festival">
+          </div> 
+          <div class="col-lg-8 col-md-6 mt-3">    
+            <div class=" justify-content-center ml-1">
+              <h4>Festival, Les Films de Plein Air</h4>
+              Publié le 10/04/21 à 11h07
+              <h6>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo alias veniam obcaecati
+              eligendi tenetur at dignissimos repellendus doloremque, molestiae facere odio sunt tempora 
+              suscipit ratione sed consequuntur quaerat! Quo, quidem!    </h6>
+              <a class="btn btn-light btn-outline-dark" href="https://www.parisinfo.com/visiter-a-paris/paris-plein-air/paris-fait-son-festival/cinema-sous-les-etoiles" target="_blank">Lire plus...</a> 
+            </div> 
+          </div>
+          <div class="col-lg-4 col-md-6 mt-3 ">
+            <img style="border-radius: 10px;" src="images/actualités/actualité3.jpg" alt="news parc monceau">
+          </div> 
+          <div class="col-lg-8 col-md-6 mt-3">    
+            <div class=" justify-content-center ml-1">
+              <h4>Le Parc Monceau</h4>
+              Publié le 17/04/21 à 16h21
+              <h6>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo alias veniam obcaecati
+              eligendi tenetur at dignissimos repellendus doloremque, molestiae facere odio sunt tempora 
+              suscipit ratione sed consequuntur quaerat! Quo, quidem!    </h6>
+              <a class="btn btn-light btn-outline-dark" href="https://www.paris.fr/equipements/parc-monceau-1804" target="_blank">Lire plus...</a> 
+            </div> 
+          </div>
+        </div>
+      </div> 
+    </div>
+    <!--Fin Actualités-->
+    
+    <div class="row  mb-5 " id="association"> <!--Début Association Films de Plein Air & Contact-->
+      <h2>L 'association " Les Films de Plein Air "</h2>
+        <div class="card mb-3 p-5" style="background-color: rgb(255, 209, 73)">
+          <div class="row g-0">
+            <div class="col-md-8">
+              <div class="card-body "> 
+                <div class=" justify-content-center">
+                  <h5>Située à Paris et créée en 2021 à but non-lucratif,
+                  notre association a pour objectif principal l'organisation de festivals de cinéma d'auteur en plein air.<br>
+                  "Les Films de Plein Air" vient d'obtenir l'autorisation de projeter au parc Monceau cette année.
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 " id="contact"> <!--Début contact-->
+              <h5>Nous contacter</h5>        
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail2" class="form-label"></label>
+                  <input type="email" class="form-control" placeholder="Entrez votre mail" id="exampleInputEmail2" aria-describedby="emailHelp">
+                  <div id="emailHelp2" class="form-text">Votre mail ne sera pas partagé avec des tiers.</div>
+                </div>
+                <div class="mb-3">
+                  <label></label>
+                  <textarea class="form-control" placeholder="Saisissez votre message..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-light btn-outline-dark mb-3"><strong>Envoyer</strong></button>
+                
+        </form> 
+            </div>
+          </div>
+        </div>
+    </div>
+    <!--Fin Association-->
+
+  </div> <!--Fin container-->
+
+  <!--Début footer-->
+  <footer class=" m-0 mt-5">
+    <!-- Début Newsletter-->
+    <section class="" id="newsletter">
+      <form>
+        <div class="row d-flex justify-content-center">
+          <div class="col-auto mt-3">
+            <h4 class="text-dark">Newsletter</h4>
+          </div>
+          <div class="col-md-5 col-12 mt-3">
+            <div class="form-outline form-white">
+                <input type="email" name="email" placeholder="Entrez votre adresse mail" required class="w-100">
+            </div>
+          </div>
+          <div class="col-auto mt-3">
+            <button type="submit" class="btn btn-outline-dark">
+              <strong>S'abonner</strong>
+            </button>
+          </div>
+        </div>
+      </form>
+    </section>
+    <!-- Fin Newsletter-->
+    <section class="text-center"><!-- Réseaux sociaux-->
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="http://facebook.com/fr" role="button"><img src="images/logos/facebook.png" width="50px" alt="facebook"></a>
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="http://twitter.fr" role="button"><img src="images/logos/twitter.png" width="50px" alt="twitter"></a>
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="http://instagram.com" role="button"><img src="images/logos/insta.png" width="50px" alt="instagram"></a>
+    </section>
+    <!-- Fin reseaux sociaux -->
+    <div class="text-center" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2021 Copyright: Association Les Films de Plein Air<br>
+      Centre de Formation: 
+      <a class="text-dark" href="https://openclassrooms.com/" target="_blank">Openclassrooms.com</a>
+    </div>
+  </footer>
+
+
+
+  <script src="popper.min.js"></script>
+  <script src="jquery-3.6.0.min.js"> </script>
+  <script src="js/bootstrap.js"></script>
+
+  </body>
+</html>
